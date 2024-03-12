@@ -1,0 +1,54 @@
+@media (max-width: 576px) {
+  nav {
+    height: fit-content;
+  }
+
+  nav ul.nav-menu {
+    display: block;
+    text-align: center;
+  }
+
+  nav .row > div, nav .container-fluid {
+    
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  section.comidas-tipicas {
+    background-position-x: center;
+  }
+
+  .footer-icons {
+    margin-bottom: 40px;
+  }
+
+  footer .footer-title{
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    width: fit-content;
+}
+}
+
+@media (max-width: 1200px) {
+  .col-md-4 {
+    width: fit-content;
+}
+
+
+}
+
+@media (max-width: 1400px) {
+  div.comidas-box{
+    height: fit-content;
+    width: 50vh;
+    padding: 20px;
+  }
+}
